@@ -1,0 +1,86 @@
+.startpage{
+    width: 100%;
+    background: #17174D;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    transition: all 0.5s ease;
+    z-index: 1000;
+    &__body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        .l__start{
+            width: 212px;
+            height: 154px;
+            position: absolute;
+            z-index: 5;
+        }
+        .r__start{
+            width: 212px;
+            height: 154px;
+            position: absolute;
+            z-index: 5;
+        }
+        &-main{
+            width: 356px;
+            height: 258px;
+            background: #17174D;
+            border: 1px solid #C99149;
+            border-top-left-radius: 140px;
+            border-bottom-right-radius: 140px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 10;
+            &-info{
+                position: absolute;
+                width: 356px;
+                height: 258px;
+                border-radius: 140px 0px 140px 0px;
+                background: #C99149;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 7px;
+                padding-top: 44px;
+                img{
+                    width: 111px;
+                    height: 55px;
+                }
+                p{
+                    color: #F0D9DA;
+                    font-size: 14px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    text-align: center;
+                    margin-top: 14px;
+                }
+                &-btn{
+                    color: rgb(240, 217, 218);
+                    background: linear-gradient(-4.65deg, rgb(141, 1, 1) 4.008%,rgb(201, 34, 34) 72.969%);
+                    padding: 12px 23px;
+                    border-radius: 16px 0px;
+                    color: #F0D9DA;
+                    font-size: 14px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    text-align: center;
+                    margin-top: 14px;
+                }
+            }
+        }
+    }
+}
+.startpage.close{
+    opacity: 0;
+}
+.startpage.dont__show{
+    z-index: -1;
+}

@@ -1,0 +1,71 @@
+.news{
+    width: 100%;
+    padding-top: 70px;
+    background: #fff4f5;
+    &__body{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        &-title{
+            font-size: 18px;
+            line-height: 24px;
+            color: #8D0101;
+            text-align: left;
+            font-weight: 400;
+        }
+        &-block{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            &-item{
+                display: flex;
+                gap: 30px;
+                img{
+                    width: 370px;
+                    height: 170px;
+                }
+                &-text{
+                    display: flex;
+                    flex-direction: column;
+                    span{
+                        font-size: 16px;
+                        line-height: auto;
+                        color: #17174D;
+                        font-weight: 600;
+                    }
+                    p{
+                        margin-top: 10px;
+                        font-size: 18px;
+                        line-height: 24px;
+                        color: #17174D;
+                        text-align: left;
+                        font-weight: 400;
+                    }
+                    &-link{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        margin-top: 20px;
+                        a{
+                            display: flex;
+                            align-items: center;
+                            gap: 22px;
+                            span{
+                                font-size: 18px;
+                                line-height: 24px;
+                                text-align: left;
+                                color: #8D0101;
+                                font-weight: 400;
+                            }
+                            svg{
+                                width: 24px;
+                                height: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

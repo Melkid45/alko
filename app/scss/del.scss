@@ -1,0 +1,102 @@
+.del{
+    width: 100%;
+    padding: 70px 0px 0px 0px;
+    position: relative;
+    background: #FFF4F5;
+    &__body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 28px;
+        &-title{
+            font-size: 40px;
+            line-height: 55px;
+            color: #8D0101;
+            font-weight: 500;
+            text-align: center;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #8D0101;
+        }
+        &-block{
+            display: flex;
+            flex-direction: column;
+            &-item{
+                display: flex;
+                svg{
+                    min-width: 70px;
+                    min-height: 37px;
+                }
+                &-text{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    max-width: 570px;
+                    margin-left: 30px;
+                    span{
+                        font-size: 18px;
+                        line-height: 24px;
+                        font-weight: 400;
+                        text-align: left;
+                        color: #8D0101;
+                    }
+                    p{
+                        font-size: 18px;
+                        line-height: 24px;
+                        font-weight: 400;
+                        text-align: left;
+                        color: #17174D;
+                    }
+                }
+            }
+            &-item:nth-child(1){
+                img{
+                    width: 390px;
+                    height: 300px;
+                    margin-left: -67px;
+                }
+                .del__body-block-item-text{
+                    margin-top: 42px;
+                }
+                svg{
+                    margin-top: 42px;
+                    margin-left: 100px;
+                }
+            }
+            &-item:nth-child(2){
+                img{
+                    width: 520px;
+                    height: 285px;
+                    order: -1;
+                    margin-top: -100px;
+                }
+                .del__body-block-item-text{
+                    margin-top: 22px;
+                    max-width: 470px;
+                    span{
+                        text-align: end;
+                    }
+                    P{
+                        text-align: end;
+                    }
+                }
+                svg{
+                    margin-top: 22px;
+                    order: 1;
+                    margin-left: 30px;
+                }
+            }
+        }
+        &-btn{
+            color: rgb(240, 217, 218);
+            background: linear-gradient(-4.65deg, rgb(141, 1, 1) 4.008%,rgb(201, 34, 34) 72.969%);
+            padding: 10px 64px;
+            border-radius: 16px 0px;
+            color: #F0D9DA;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400;
+            text-align: center;
+            margin-top: 14px;
+        }
+    }
+}

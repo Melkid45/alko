@@ -1,0 +1,87 @@
+.main{
+    padding: 140px 0px 192px 140px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__body{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        &-text{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            &-title{
+                font-size: 60px;
+                line-height: 65px;
+                font-weight: 500;
+                color: #17174D;
+                max-width: 484px;
+            }
+            p{
+                font-size: 18px;
+                line-height: 24px;
+                color: #17174D;
+                font-weight: 400;
+                max-width: 484px;
+            }
+            &-btn{
+                font-size: 18px;
+                line-height: 24px;
+                color: #F0D9DA;
+                font-weight: 400;
+                border-radius: 16px 0px 16px 0px;
+                background: linear-gradient(-4.65deg, rgb(141, 1, 1) 4.854%,rgb(201, 34, 34) 72.474%);
+                padding: 10px 51px;
+                margin-top: 10px;
+                max-width: 220px;
+            }
+        }
+        &-block{
+            width: 602px;
+            height: 526px;
+            border: 1px solid #C99149;
+            border-radius: 140px 0px 140px 0px;
+            position: relative;
+            background: #F0D9DA;
+            margin-top: 24px;
+            &-img{
+                width: 602px;
+                height: 526px;
+                position: absolute;
+                top: -24px;
+                right: 32px;
+                z-index: 5;
+            }
+            .l__main{
+                width: 212px;
+                height: 154px;
+                position: absolute;
+                left: -196px;
+                bottom: -86px;
+                z-index: 2;
+            }
+            .r__main{
+                width: 212px;
+                height: 154px;
+                position: absolute;
+                top: -84px;
+                right: -79px;
+            }
+        }
+    }
+    &__arrow{
+        position: absolute;
+        margin-right: 100px;
+        width: 32px;
+        height: 32px;
+        bottom: 40px;
+        svg{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

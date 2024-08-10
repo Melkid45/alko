@@ -1,0 +1,38 @@
+.startpage__body-main-info{
+    transition: all 0.8s ease;
+    opacity: 1;
+}
+.startpage__body-main-info.element-show{
+    translate: -17px 0;
+    height: 224px;
+}
+.startpage__body-main-info-title{
+    transition: all 0.8s ease;
+    translate: 0 -5%;
+}
+.startpage__body-main-info-title.element-show{
+    transition: all 0.8s ease;
+    translate: 0 0;
+}
+.startpage__body-main-info-btn{
+    transition: all 0.8s ease 0.2s;
+    translate: 0 -5%;
+}
+.startpage__body-main-info-btn.element-show{
+    transition: all 0.5s ease;
+    translate: 0 0;
+}
+.l__start{
+    transition: all 0.5s ease 0.3s;
+    opacity: 1;
+}
+.l__start.element-show{
+    translate: -198px 133px;
+}
+.r__start{
+    transition: all 0.5s ease 0.3s;
+    opacity: 1;
+}
+.r__start.element-show{
+    translate: 183px -134px;
+}
